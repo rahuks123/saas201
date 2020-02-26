@@ -1,0 +1,10 @@
+class sample
+	def initiali
+        def get_title(atitle)
+                @title=atitle
+                return @title
+        end
+end
+obj=sample.new
+#puts obj.get_title("percy")
+

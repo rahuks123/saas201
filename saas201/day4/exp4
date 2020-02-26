@@ -1,0 +1,14 @@
+class parent 
+	def m1
+		puts"this is the function in the parent class"
+	end
+end
+clas child
+	def m2
+		puts"this is the function in the child class"
+	end
+end
+a=parent.new
+b=child.new
+a.m1
+b.m2

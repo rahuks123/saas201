@@ -1,0 +1,28 @@
+class Parent
+	attr_accessor :rollno, :name
+	def initialize	puts"this is the constructor of the class"
+	end
+#	private	
+        def m1
+                puts"this is the function in the parent class"
+		puts"the name is #{@name} and rollno is #{@rollno}"
+        end
+	public
+	def m3	
+		puts"this is a public function"
+	end
+end
+class Child<Parent
+        def m2
+                puts"this is the function in the child class"
+        end
+end
+a=Parent.new
+b=Child.new
+a.m1
+a.rollno=1
+a.name="rahul"
+#b.m1
+#b.m2
+
+

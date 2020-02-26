@@ -1,0 +1,4 @@
+puts"welcome to my first assignement\n"
+puts"1.display the details\n2.playing with numbers\nplease enter your choise\n"
+ch=genumber  = gets.chomp.to_i
+
